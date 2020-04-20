@@ -1,7 +1,14 @@
 $(function() {
-    var port = $('.newp');
-    alert(port);
-    port.hide(3000).text('new text').show(3000);
-    $('.item').hide(5000);
+    // var newHihght = $('.newp').width();
+    // $('.item').width(newHihght).height(400);
+    // alert(newHihght);
 
+    // function widthAndHeight(element) {
+    //     var className = '.' + element;
+    //     var w = $(className).width();
+    //     var h = $(className).height();
+    //     $('.newp').text('width ' + w + '; Height: ' + h);
+    // };
+    // widthAndHeight('item');
+    $('div').html('<p>cheking fot changes</p>');
 });

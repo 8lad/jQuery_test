@@ -1,0 +1,11 @@
+.item {
+    width: 500px;
+    height: 500px;
+    border: 1px solid greenyellow;
+}
+
+.newp {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+}
