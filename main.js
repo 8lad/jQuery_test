@@ -10,5 +10,21 @@ $(function() {
     //     $('.newp').text('width ' + w + '; Height: ' + h);
     // };
     // widthAndHeight('item');
-    $('div').html('<p>cheking fot changes</p>');
+    // $('div').html('<p>cheking fot changes</p>');
+    // $('.newp').fadeOut(3000).fadeIn(3000);
+
+    // function elementOut(element, time) {
+    //     var e = '.' + element;
+    //     e.fadeOut(time);
+    // }
+    function elementOut(element, time) {
+        if (time > 5000 || time < 1000 || isNaN(time)) {
+            return false;
+        } else {
+            var className = "." + element;
+            $(className).fadeOut(time);
+        }
+    }
+
+    elementOut('newp', 5000);
 });
