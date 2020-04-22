@@ -9,3 +9,7 @@
     height: 300px;
     border: 1px solid red;
 }
+
+.tokio {
+    max-width: 400px;
+}
