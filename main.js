@@ -30,5 +30,15 @@ $(function() {
     $('.img').on('click', function() {
         $(this).fadeTo(3000, 0.3);
     });
-    $('.tokio').slideUp(5000).slideDown(5000);
+    $('.tokio').slideUp(4000).slideDown(1000);
+    var src = $('.img').attr('src', 'images/2018FordMustang003.jpg');
+    alert(src);
+    $('.img').attr('title', 'new text');
+    $('.img').removeAttr('title');
+
+    function changeAttr(element, newAttr, newValue) {
+        var className = "." + element;
+        $(className).attr(newAttr, newValue);
+    };
+    changeAttr('img', 'title', 'some new text');
 });
