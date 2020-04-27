@@ -13,3 +13,8 @@
 .tokio {
     max-width: 400px;
 }
+
+.border {
+    border: 3px solid yellow;
+    padding: 30px;
+}

@@ -41,4 +41,6 @@ $(function() {
         $(className).attr(newAttr, newValue);
     };
     changeAttr('img', 'title', 'some new text');
+    $('.img').addClass('border');
+    $('.img').removeClass('border');
 });
