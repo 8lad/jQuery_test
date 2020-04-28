@@ -43,4 +43,14 @@ $(function() {
     changeAttr('img', 'title', 'some new text');
     $('.img').addClass('border');
     $('.img').removeClass('border');
+    $('.tokio').css({
+        'color': 'yellow',
+        'font-size': '50px',
+        'background-color': 'rgb(0, 0, 233)'
+    });
+    $('.mikki').animate({
+        'font-size': '50px',
+    }, 4000, function() {
+        alert('succssesful function');
+    });
 });
