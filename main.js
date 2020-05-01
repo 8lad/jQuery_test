@@ -53,4 +53,9 @@ $(function() {
     }, 4000, function() {
         alert('succssesful function');
     });
+
+    $('.mikki').before('<span class="goal">Some new text</span>');
+    $('.mikki').after('<span>Some new text</span>');
+    $('.mikki').append('<span>Some new text</span>');
+    $('.mikki').prepend('<span>Some new text</span>');
 });
