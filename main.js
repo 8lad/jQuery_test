@@ -58,4 +58,9 @@ $(function() {
     $('.mikki').after('<span>Some new text</span>');
     $('.mikki').append('<span>Some new text</span>');
     $('.mikki').prepend('<span>Some new text</span>');
+    $('.images img').each(function() {
+        if ($(this).attr('src') == 'images/img3.webp') {
+            $(this).fadeOut(3000);
+        }
+    });
 });
