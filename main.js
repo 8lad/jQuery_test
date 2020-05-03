@@ -27,6 +27,7 @@ $(function() {
     // }
 
     // elementOut('newp', 5000);
+    alert($('div').length);
     $('.img').on('click', function() {
         $(this).fadeTo(3000, 0.3);
     });
