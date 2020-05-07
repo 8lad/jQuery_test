@@ -64,4 +64,7 @@ $(function() {
             $(this).fadeOut(3000);
         }
     });
+    var mainText = $('.newp').clone();
+    $('body').append(mainText);
+    $('.newp, .item').css('background-color', '#222');
 });
